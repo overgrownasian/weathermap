@@ -62,11 +62,11 @@ services:
       # host mode required to get real client IP
       - mode: host
         protocol: tcp
-        published: 80
+        published: 83
         target: 80
       - mode: host
         protocol: tcp
-        published: 443
+        published: 5443
         target: 443
     networks:
       - wmap_net
